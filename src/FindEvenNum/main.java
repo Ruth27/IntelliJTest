@@ -2,14 +2,14 @@ package FindEvenNum;
 
 public class main {
     public static void main(String[] args) {
-        int[] foo = {0, 1, 2, 3, 4};
+        int[] refractored = {0, 1, 2, 3, 4};
 
         int[] bar = new int[100];
         for(int i = 0; i < 100; i++){
             bar[i] = i;
         }
-        System.out.println("The number of even numbers in foo is:");
-        System.out.println(countEvenNum(foo, 5));
+        System.out.println("The number of even numbers in refractored is:");
+        System.out.println(countEvenNum(refractored, 5));
 
         System.out.println("The number of even numbers in bar is:");
         System.out.println(countEvenNum(bar, 100));
